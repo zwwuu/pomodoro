@@ -1,0 +1,10 @@
+@tailwind base;
+
+@layer base {
+  svg {
+    @apply h-[1em] w-[1em];
+  }
+}
+
+@tailwind components;
+@tailwind utilities;

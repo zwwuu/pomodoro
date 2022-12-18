@@ -1,0 +1,7 @@
+.button {
+  @apply inline-flex items-center rounded border-2 p-4 text-lg font-bold uppercase leading-none transition-opacity hover:opacity-80 focus:opacity-80;
+}
+
+.icon {
+  @apply mr-1;
+}

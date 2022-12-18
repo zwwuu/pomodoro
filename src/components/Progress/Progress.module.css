@@ -1,0 +1,19 @@
+.root {
+  @apply relative h-1 w-full rounded;
+}
+
+.root.work {
+  @apply bg-indigo-900;
+}
+
+.root.short_break {
+  @apply bg-sky-900;
+}
+
+.root.long_break {
+  @apply bg-cyan-900;
+}
+
+.progress {
+  @apply absolute top-0 bottom-0 left-0 bg-white;
+}
